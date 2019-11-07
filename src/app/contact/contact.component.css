@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  overflow:auto;
 }
 * {
   box-sizing: border-box;
@@ -9,8 +10,8 @@ body, html {
   background-image: url("https://images.unsplash.com/photo-1538151790645-80dd86cda1ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
 
   /* Control the height of the image */
-  min-height: 780px;
-  min-width: 800px;
+   min-height: 780px;
+  /*min-width: 800px; */
 
   /* Center and scale the image nicely */
   background-position: center;
