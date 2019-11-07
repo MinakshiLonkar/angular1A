@@ -1,11 +1,9 @@
 body, html {
   height: 100%;
 }
-
 * {
   box-sizing: border-box;
 }
-
 .bg-img {
   /* The image used */
   background-image: url("https://images.unsplash.com/photo-1538151790645-80dd86cda1ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
@@ -21,7 +19,6 @@ body, html {
   position: relative;
   
 }
-
 /* Add styles to the form container */
 .container {
   position: absolute;
@@ -31,7 +28,6 @@ body, html {
   padding: 16px;
   background-color: white;
 }
-
 /* Full-width input fields */
   input[type=text], input[type=password] {
   width: 100%;
@@ -40,12 +36,10 @@ body, html {
   border: none;
   background: #f1f1f1;
 }
-
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
-
 /* Set a style for the submit button */
 .btn {
   background-color: #4CAF50;
@@ -56,7 +50,6 @@ input[type=text]:focus, input[type=password]:focus {
   width: 100%;
   opacity: 0.9;
 }
-
 .btn:hover {
   opacity: 1;
 }
