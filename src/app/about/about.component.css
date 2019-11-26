@@ -38,6 +38,8 @@ h3 {
 
 body, html {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-image {
@@ -75,11 +77,6 @@ body, html {
   color: white;
 }
 
-
-body {
-    margin: 0;
-    padding: 0;
-}
 .hero {
     position: relative;
     width: 50vw;
