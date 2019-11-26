@@ -10,20 +10,29 @@
 </head>
 
 <body>
+
 <div class="container">
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <div class="navbar-header"><b>
-      MovieCruiser</b>
+    <div class="navbar-header">
+      <b>MovieCruiser</b>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
        <a href="https://bootstrap-assignment.stackblitz.io">
       <img class="myImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbsekvZM3c9Wm0phd8wi5fzebnsqVQZprxY1ku3Iyp98XXfzrs&s" alt="img not found"></a>
     </div>
+    
+  <div class="collapse navbar-collapse" id="myNavbar">
+
     <ul class="nav navbar-nav navbar-right">
       <li><a routerLink="home"><span></span> Home</a></li>
       <li><a routerLink="about"><span></span> About</a></li>
       <li><a routerLink="contact"><span></span>Contact</a></li>
- 
     </ul>
+  </div>
   </div>
 </nav>
 </div>

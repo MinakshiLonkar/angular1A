@@ -1,29 +1,52 @@
 <html>
 <router-outlet></router-outlet>
 <body>
-
+<!--
  <div class="container">
   <form action="/action_page.php" class="form-group">
    
 
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="First Name">
+    <input type="text" id="fname" name="firstname" placeholder="First Name"><br>
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+    <input type="text" id="lname" name="lastname" placeholder="Last Name"><br>
     
     <label for="email"><b>Email Address</b></label>
-    <input type="text" placeholder="Email" name="email" required>
+    <input type="text" placeholder="Email" name="email" required><br>
 
     <label for="psw"><b>Message</b></label>
-    <input type="text" placeholder="Your Message" name="psw"  required>
+    <input type="text" placeholder="Your Message" name="psw"  required><br>
     
     <button type="submit" class="btn">Submit</button>
    
   </form>
   <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 
- </div>
+ </div>-->
+
+ <div class="container">
+	<div class="login-form">
+		<h1 class="title text-center">Welcome</h1>
+		<form id="login-form" method="post" class="form-signin" role="form">
+			<input name="email" id="email" type="email" class="form-control"placeholder="Email address" autofocus> 
+			<input name="password" id="password" type="password" class="form-control disable" placeholder="Password">
+			<button class="btn btn-block bt-login" type="submit">Sign In</button>
+		</form>
+		<div class="form-footer">
+			<div class="row">
+				<div class="col-xs-7 col-sm-7 col-md-7">
+					<i class="fa fa-lock"></i> 
+					<a href="#"> Forgot password? </a>
+				</div>
+				<div class="col-xs-5 col-sm-5 col-md-5">
+					<i class="fa fa-check"></i> <a href="#"> Sign Up </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 
 </body>
 </html>
