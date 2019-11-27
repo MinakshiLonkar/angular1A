@@ -70,7 +70,7 @@
 /* } */
 
 
-body{
+.container{
 	background: url(https://images.unsplash.com/photo-1538151790645-80dd86cda1ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -81,7 +81,6 @@ body{
 p{
 	color:#fff;
 }
-
 .login-form {
    background: url(https://images.unsplash.com/photo-1538151790645-80dd86cda1ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80) repeat scroll 0 0 rgba(0, 0, 0, 0);
    width:380px;
